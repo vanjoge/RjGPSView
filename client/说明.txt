@@ -1,0 +1,15 @@
+﻿1.把rpgps.sh 放入 /root 目录
+
+2.修改rpgps.sh中 gpsserver地址为你的服务器地址 用vi或上传前修改均可
+
+3.执行
+chmod +x /root/rpgps.sh 
+
+4. 执行 crontab -e
+添加一行
+*/1 * * * * /root/rpgps.sh
+
+按:wq 保存退出
+
+
+

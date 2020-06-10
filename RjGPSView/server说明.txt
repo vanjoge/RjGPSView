@@ -1,0 +1,23 @@
+﻿
+windows
+
+1.安装.NET CORE 3.1
+https://download.visualstudio.microsoft.com/download/pr/7c30d3a1-f519-4167-b850-b9c49bf2aa0e/dbfa957a76a41a1e1795f59d400d4ccd/dotnet-hosting-3.1.5-win.exe
+2.点击RjGPSView.exe 
+或
+命令行切换到server目录后输入 dotnet RjGPSView.dll 运行
+
+
+linux/mac
+
+1.安装.NET CORE 3.1
+
+2.切换到server的目录后输入 dotnet RjGPSView.dll 运行
+
+
+
+
+
+
+注:
+web端口默认为5088,如果需要修改请在appsettings.json中修改
